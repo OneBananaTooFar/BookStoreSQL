@@ -15,6 +15,10 @@ namespace SQLBookStore
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton buttonSave { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField txtBookAuthor { get; set; }
 
         [Outlet]
@@ -27,6 +31,11 @@ namespace SQLBookStore
 
         void ReleaseDesignerOutlets ()
         {
+            if (buttonSave != null) {
+                buttonSave.Dispose ();
+                buttonSave = null;
+            }
+
             if (txtBookAuthor != null) {
                 txtBookAuthor.Dispose ();
                 txtBookAuthor = null;

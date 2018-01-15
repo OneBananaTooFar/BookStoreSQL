@@ -1,5 +1,6 @@
 ﻿using System;
-
+using System.IO;
+using SQLBookStore.Classes;
 using UIKit;
 
 namespace SQLBookStore
@@ -15,6 +16,26 @@ namespace SQLBookStore
         {
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
+
+            buttonSave.TouchUpInside += ButtonSave_TouchUpInside;
+
+
+        }
+
+        void ButtonSave_TouchUpInside(object sender, EventArgs e)
+        {
+            string db_name = "books_db.sqlite";
+            string folderPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+            string db_path = Path.Combine(folderPath, db_name);
+
+            Book newBook = new Book() { Author = txtBookAuthor.Text, Name = txtBookTitle.Text };
+
+            if (DataBaseHelper.Insert(ref newBook, db_path))
+                Console.WriteLine("SUCCESS");
+            
+            else 
+                Console.WriteLine("FAILURE");
+
         }
 
         public override void DidReceiveMemoryWarning()

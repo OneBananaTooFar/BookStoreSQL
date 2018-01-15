@@ -56,6 +56,7 @@
                     <connections>
                         <outlet property="txtBookTitle" destination="482" id="name-outlet-482"/>
                         <outlet property="txtBookAuthor" destination="484" id="name-outlet-484"/>
+                        <outlet property="buttonSave" destination="480" id="name-outlet-480"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
