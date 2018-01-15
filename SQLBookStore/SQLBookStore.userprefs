@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{3E0E3705-5DB4-4C99-8817-EF9EEE4C6560}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SQLBookStore/Main.storyboard">
+    <Files>
+      <File FileName="SQLBookStore/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="SQLBookStore/Main.storyboard" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SQLBookStore>
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.SQLBookStore>
+</Properties>
