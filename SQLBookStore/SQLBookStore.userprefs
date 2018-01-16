@@ -1,20 +1,21 @@
 ﻿<Properties StartupConfiguration="{3E0E3705-5DB4-4C99-8817-EF9EEE4C6560}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SQLBookStore/Main.storyboard">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SQLBookStore/BooksTableViewController.cs">
     <Files>
       <File FileName="SQLBookStore/AppDelegate.cs" Line="1" Column="1" />
       <File FileName="SQLBookStore/Main.storyboard" />
       <File FileName="SQLBookStore/Classes/Book.cs" Line="7" Column="6" />
       <File FileName="SQLBookStore/Classes/DataBaseHelper.cs" Line="12" Column="9" />
-      <File FileName="SQLBookStore/ViewController.cs" Line="37" Column="13" />
-      <File FileName="SQLBookStore/SQLite.cs" Line="241" Column="15" />
-      <File FileName="SQLBookStore/Main.cs" Line="12" Column="1" />
+      <File FileName="SQLBookStore/ViewController.cs" Line="39" Column="11" />
+      <File FileName="SQLBookStore/BooksTableViewController.cs" Line="13" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="SQLBookStore/ViewController.cs" line="24" offsetX="530" offsetY="345" expression="sender" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.SQLBookStore PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C4ED9EAA-E49D-4941-AFC9-E7E4FDF28FBF">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />

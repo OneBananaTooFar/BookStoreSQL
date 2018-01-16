@@ -30,8 +30,8 @@ namespace SQLBookStore
 			Book newBook = new Book() { Author = txtBookAuthor.Text, Name = txtBookTitle.Text };
 
 			if (DataBaseHelper.Insert(ref newBook, db_path))
-				Console.WriteLine("SUCCESS");
-
+				//Console.WriteLine("SUCCESS");
+                NavigationController.PopToRootViewController(true); 
 			else
 				Console.WriteLine("FAILURE");
         }
