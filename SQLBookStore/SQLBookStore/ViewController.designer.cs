@@ -15,7 +15,7 @@ namespace SQLBookStore
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton buttonSave { get; set; }
+        UIKit.UIButton newbuttonSave { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -25,15 +25,11 @@ namespace SQLBookStore
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField txtBookTitle { get; set; }
 
-        [Action ("UIButton480_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void UIButton480_TouchUpInside (UIKit.UIButton sender);
-
         void ReleaseDesignerOutlets ()
         {
-            if (buttonSave != null) {
-                buttonSave.Dispose ();
-                buttonSave = null;
+            if (newbuttonSave != null) {
+                newbuttonSave.Dispose ();
+                newbuttonSave = null;
             }
 
             if (txtBookAuthor != null) {
